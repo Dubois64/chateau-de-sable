@@ -1,8 +1,47 @@
 .vente-bloc-color {
   background: #000;
   width: 160%;
-  height: 60%;
+  height: 10%;
   flex-shrink: 0;
   margin-top: 5%;
   margin-left: -30%;
+}
+
+.vente-grey-background {
+  background: #f1f1f1;
+  width: 160%;
+  height: 1960%;
+  margin-left: -30%;
+}
+
+.vente-mockup-book {
+  margin-left: 8%;
+}
+
+.vente-titre {
+  width: 527px;
+  height: 522px;
+  flex-shrink: 0;
+  color: #dd469f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 120%;
+  margin-top: -70%;
+}
+
+.vente-bloc-texte {
+  width: 527px;
+  height: 522px;
+  flex-shrink: 0;
+  color: #dd469f;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 120%;
+  margin-top: -50%;
 }
