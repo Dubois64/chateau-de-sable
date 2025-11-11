@@ -1,0 +1,22 @@
+@import "font";
+@import "base";
+@import "layout";
+@import "bootstrap/scss/bootstrap-grid";
+@import "modules/header";
+@import "modules/experience_utilisateur";
+@import "modules/vente";
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  h1 {
+    font-size: 30px;
+  }
+}
