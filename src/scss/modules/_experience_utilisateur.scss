@@ -20,9 +20,12 @@
   margin-left: -70%;
 }
 
-.img_background {
+.exprience-img-background {
   margin-left: 28%;
   width: 64%;
+  height: auto;
+  display: block;
+  position: relative;
 }
 
 .experience-bulle-1 {
@@ -64,11 +67,40 @@
   z-index: 1;
 }
 
+@media (min-width: 800px) {
+  .experience-personnage-grandit-1 {
+    width: 10%;
+    position: absolute;
+    top: 327%;
+    left: 65%;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .experience-personnage-grandit-1 {
+    width: 10%;
+    position: absolute;
+    top: 327%;
+    left: 65%;
+
+    z-index: 1;
+  }
+}
+
+.experience-cases-personnage-détaché-fond {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .experience-personnage-grandit-1 {
   position: absolute;
-  top: 327%;
-
-  left: 65%;
-  z-index: 1;
-  width: 27%;
+  bottom: 0%;
+  top: 0%;
+  left: 81%;
+  transform: translateX(-50%);
+  width: 20%;
+  height: auto;
+  z-index: 2;
 }
