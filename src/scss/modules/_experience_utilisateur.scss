@@ -104,3 +104,28 @@
   height: auto;
   z-index: 2;
 }
+
+.experience-case-personnage-détaché-fond-2 {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.experience-img-background-2 {
+  margin-left: 28%;
+  width: 64%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.experience-personnage-grandit-2 {
+  position: absolute;
+  bottom: 0%;
+  top: -25%;
+  left: 92%;
+  transform: translateX(-260%);
+  width: 24%;
+  height: auto;
+  z-index: 2;
+}
