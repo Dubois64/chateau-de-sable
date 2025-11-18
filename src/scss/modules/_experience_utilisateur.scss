@@ -18,8 +18,6 @@
   background-color: black;
   width: 200%;
   margin-left: -70%;
-
-  
 }
 
 .exprience-img-background {
@@ -155,4 +153,32 @@
 
 .experience-cases-felix-2 {
   margin-left: -16%;
+}
+
+.experience-cases-felix-01 {
+  width: 19%;
+  margin-left: -1%;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  transition: opacity 0.8s ease;
+}
+
+.experience-cases-felix-1:hover {
+  opacity: 0;
+}
+
+.experience-cases-felix-02 {
+  width: 19%;
+  margin-left: 21%;
+  position: relative;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  transition: opacity 0.8s ease;
+}
+
+.experience-cases-felix-2:hover {
+  opacity: 0;
 }
