@@ -21,3 +21,23 @@ gsap.utils.toArray(".experience-bulle-1").forEach((el) => {
 });
 
 ScrollTrigger.refresh();
+
+gsap.to("#experience-personnage-grandit-1", {
+  opacity: 1,
+  x: "25%",
+  scrollTrigger: {
+    trigger: "#experience-personnage-grandit-1",
+    start: "top top",
+    scrub: 1,
+  },
+});
+
+gsap.to("#experience-personnage-grandit-1", {
+  opacity: 1,
+  x: "-25%",
+  scrollTrigger: {
+    trigger: "#experience-personnage-grandit-1",
+    start: "center bottom",
+    scrub: 1,
+  },
+});
