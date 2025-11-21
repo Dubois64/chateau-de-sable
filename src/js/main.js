@@ -41,3 +41,16 @@ gsap.to("#experience-personnage-grandit-1", {
     scrub: 1,
   },
 });
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.from(".experience-personnage-grandit-1", {
+  x: -200,
+  opacity: 0,
+  duration: 1,
+  ease: "power3.out",
+  scrollTrigger: {
+    trigger: ".experience-personnage-grandit-1",
+    start: "top 80%",
+  },
+});
